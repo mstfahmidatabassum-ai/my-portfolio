@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mst. Fahmida Tabassum | Portfolio</title>
+  <meta name="description" content="Portfolio of Mst. Fahmida Tabassum — B.Pharm student at Manarat International University, writer, artist and video editor." />
+  <meta name="theme-color" content="#0b0f1a" />
+
+  <!-- Fonts (optional: remove these 3 lines if you want offline-only fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================================================================
+       Mst. Fahmida Tabassum — Portfolio
+       Student ID: 2547BPM02118
+       To edit: search for "EDIT" comments and placeholder links.
+       ================================================================ -->
+
+  <!-- ---------- Navbar ---------- -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="logo" aria-label="Home">
+        <span class="logo-mark">FT</span>
+        <span class="logo-text">Fahmida<span>.</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#work" class="nav-link">Creative Work</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle colour theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2M4 12H2m20 0h-2M5.6 5.6 4.2 4.2m15.6 15.6-1.4-1.4M18.4 5.6l1.4-1.4M4.2 19.8l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ---------- Hero ---------- -->
+    <section class="hero" id="hero">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="dot"></span> B.Pharm Student · Creative Mind</p>
+          <h1 class="reveal">Hi, I'm <span class="gradient-text">Fahmida</span><span class="wave">👋</span></h1>
+          <p class="hero-fullname reveal">Mst. Fahmida Tabassum</p>
+          <h2 class="hero-role reveal">I'm a <span id="typed" class="typed">Pharmacy Student</span><span class="cursor">|</span></h2>
+          <p class="hero-desc reveal">
+            A pharmacy student who loves blending science with creativity.
+            I write, I draw, I edit videos — and I believe good communication
+            can make healthcare feel more human.
+          </p>
+          <div class="hero-buttons reveal">
+            <a href="#work" class="btn btn-primary">See my work <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <div class="socials reveal">
+            <!-- EDIT: replace these with your real profile links -->
+            <a href="https://instagram.com/YOUR_USERNAME" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+            <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://www.youtube.com/@YOUR_USERNAME" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+            <a href="mailto:your.email@example.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="avatar-ring">
+            <div class="avatar">
+              <img src="assets/photo.jpg" alt="Mst. Fahmida Tabassum — B.Pharm student, writer, artist and video editor" />
+            </div>
+            <div class="photo-caption">Mst. Fahmida Tabassum <span>· B.Pharm</span></div>
+          </div>
+          <div class="float-card card-code">
+            <span class="card-icon">✍️</span>
+            <div><strong>Words that connect</strong><small>Writing &amp; storytelling</small></div>
+          </div>
+          <div class="float-card card-build">
+            <span class="card-icon">🎨</span>
+            <div><strong>Ideas in colour</strong><small>Art &amp; video editing</small></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ---------- About ---------- -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">01</span>
+          <h2>About <span class="gradient-text">me</span></h2>
+          <p>A little about who I am and what I love doing.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm <strong>Mst. Fahmida Tabassum</strong>, a Bachelor of Pharmacy
+              (B.Pharm) student at <strong>Manarat International University</strong>,
+              Department of Pharmacy. My student ID is <strong>2547BPM02118</strong>.
+            </p>
+            <p>
+              Alongside my pharmaceutical studies, I nurture a creative side —
+              I write, make art, and edit videos. I enjoy turning complex ideas
+              into simple, beautiful stories, whether it's a health awareness
+              post, an illustration, or a short film.
+            </p>
+            <p>
+              I believe the future of healthcare needs both scientific knowledge
+              and the ability to communicate it with empathy and clarity.
+            </p>
+            <div class="fact-row">
+              <div class="fact"><strong>B.Pharm</strong><span>Currently studying</span></div>
+              <div class="fact"><strong>03</strong><span>Creative skills</span></div>
+              <div class="fact"><strong>∞</strong><span>Ideas to explore</span></div>
+            </div>
+          </div>
+
+          <div class="about-card reveal">
+            <h3>Quick facts</h3>
+            <ul class="fact-list">
+              <li><span>🆔</span><div><strong>Student ID</strong><small>2547BPM02118</small></div></li>
+              <li><span>🎓</span><div><strong>University</strong><small>Manarat International University</small></div></li>
+              <li><span>💊</span><div><strong>Department</strong><small>Pharmacy (B.Pharm)</small></div></li>
+              <li><span>✍️</span><div><strong>Passions</strong><small>Writing · Art · Video Editing</small></div></li>
+              <li><span>🌱</span><div><strong>Currently</strong><small>Learning &amp; creating every day</small></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Skills ---------- -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">02</span>
+          <h2>My <span class="gradient-text">skills</span></h2>
+          <p>A blend of pharmaceutical knowledge and creative craft.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">✍️</div>
+            <h3>Writing</h3>
+            <div class="tags">
+              <span>Academic writing</span><span>Content writing</span>
+              <span>Creative writing</span><span>Research summaries</span>
+              <span>Proofreading</span><span>Storytelling</span>
+            </div>
+            <div class="bar"><i style="--w: 92%"></i></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">🎨</div>
+            <h3>Art</h3>
+            <div class="tags">
+              <span>Digital illustration</span><span>Poster design</span>
+              <span>Medical illustration</span><span>Canva</span>
+              <span>Colour theory</span><span>Sketching</span>
+            </div>
+            <div class="bar"><i style="--w: 85%"></i></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">🎬</div>
+            <h3>Video Editing</h3>
+            <div class="tags">
+              <span>CapCut</span><span>Premiere Pro</span>
+              <span>Reels &amp; Shorts</span><span>Motion graphics</span>
+              <span>Subtitling</span><span>Visual storytelling</span>
+            </div>
+            <div class="bar"><i style="--w: 88%"></i></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">💊</div>
+            <h3>Pharmacy &amp; academics</h3>
+            <div class="tags">
+              <span>Pharmacology</span><span>Pharmaceutics</span>
+              <span>Pharm. Chemistry</span><span>Anatomy</span>
+              <span>Lab work</span><span>Research basics</span>
+            </div>
+            <div class="bar"><i style="--w: 80%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Creative Work ---------- -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">03</span>
+          <h2>Creative <span class="gradient-text">work</span></h2>
+          <p>A few things I've made — replace these with your own projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- EDIT: PROJECT 1 -->
+          <article class="project-card reveal">
+            <div class="project-thumb thumb-one"><span>🎬</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>Video Editing</span><span>2025</span></div>
+              <h3>Medicine Awareness Reel</h3>
+              <p>A short, engaging video about taking medicines safely — designed for social media with captions and motion graphics.</p>
+              <div class="tags"><span>CapCut</span><span>Storytelling</span><span>Subtitles</span></div>
+              <div class="project-links">
+                <!-- EDIT: add your real link -->
+                <a href="https://YOUR_VIDEO_LINK.example.com" target="_blank" rel="noopener">Watch ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- EDIT: PROJECT 2 -->
+          <article class="project-card reveal">
+            <div class="project-thumb thumb-two"><span>🎨</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>Art &amp; Design</span><span>2025</span></div>
+              <h3>Anatomy Illustration Set</h3>
+              <p>A series of clean, labelled diagrams made to help fellow students revise key concepts visually.</p>
+              <div class="tags"><span>Illustration</span><span>Canva</span><span>Medical art</span></div>
+              <div class="project-links">
+                <a href="https://YOUR_ART_LINK.example.com" target="_blank" rel="noopener">View gallery ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- EDIT: PROJECT 3 -->
+          <article class="project-card reveal">
+            <div class="project-thumb thumb-three"><span>✍️</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>Writing</span><span>2024</span></div>
+              <h3>Health &amp; Wellness Articles</h3>
+              <p>A collection of simple, friendly articles on everyday health topics, written for a general audience.</p>
+              <div class="tags"><span>Content writing</span><span>Research</span><span>Editing</span></div>
+              <div class="project-links">
+                <a href="https://YOUR_WRITING_LINK.example.com" target="_blank" rel="noopener">Read samples ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- EDIT: PROJECT 4 -->
+          <article class="project-card reveal">
+            <div class="project-thumb thumb-four"><span>📊</span></div>
+            <div class="project-body">
+              <div class="project-meta"><span>Academic + Design</span><span>2024</span></div>
+              <h3>Research Poster Design</h3>
+              <p>A poster presentation combining research content with clear visual hierarchy and accessible design.</p>
+              <div class="tags"><span>Poster design</span><span>Academic writing</span><span>Layout</span></div>
+              <div class="project-links">
+                <a href="https://YOUR_POSTER_LINK.example.com" target="_blank" rel="noopener">View poster ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Education / Journey ---------- -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">04</span>
+          <h2>Education &amp; <span class="gradient-text">journey</span></h2>
+          <p>Where I'm learning, growing and creating.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">Present</span>
+            <h3>Bachelor of Pharmacy (B.Pharm)</h3>
+            <p class="timeline-place">Manarat International University · Department of Pharmacy</p>
+            <p>Student ID: <strong>2547BPM02118</strong>. Studying pharmaceutical sciences while exploring creative projects alongside coursework.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">Ongoing</span>
+            <h3>Creative Skill Development</h3>
+            <p class="timeline-place">Self-directed · Writing, Art &amp; Video Editing</p>
+            <!-- EDIT: add your real achievements here -->
+            <p>Practising writing, illustration and video editing through personal projects, online learning and campus activities.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">Earlier</span>
+            <h3>Schooling</h3>
+            <p class="timeline-place">Your School / College · Your City</p>
+            <!-- EDIT: add your school name and year -->
+            <p>Built a strong foundation in science and a love for the arts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Contact ---------- -->
+    <section class="section" id="contact">
+      <div class="container contact-wrap">
+        <div class="section-head left reveal">
+          <span class="section-number">05</span>
+          <h2>Let's <span class="gradient-text">connect</span></h2>
+          <p>Have a project, a collaboration idea, or just want to say hi? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <!-- EDIT: your real email -->
+              <div><strong>Email</strong><a href="mailto:your.email@example.com">your.email@example.com</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <!-- EDIT: your real phone -->
+              <div><strong>Phone</strong><a href="tel:+8801000000000">+880 1000-000000</a></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div><strong>University</strong><span>Manarat International University</span></div>
+            </div>
+            <div class="contact-socials">
+              <a href="https://instagram.com/YOUR_USERNAME" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://www.youtube.com/@YOUR_USERNAME" target="_blank" rel="noopener">YouTube</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Your email" required />
+            </div>
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+            <button type="submit" class="btn btn-primary">Send message <span aria-hidden="true">→</span></button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ---------- Footer ---------- -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Mst. Fahmida Tabassum · 2547BPM02118. Made with 💊, ✍️ &amp; ☕.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
